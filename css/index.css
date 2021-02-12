@@ -273,23 +273,32 @@ footer nav a {
   background: dodgerblue;
 }
 
+.highway {
+  text-align: center;
+}
+
 /* About Page*/
 
 nav {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 
 .City {
   text-align: center;
 }
 
-.container .about-page {
-  display: flex;
-  flex-flow: column wrap;
-}
-
 .about-page p {
   border-bottom: 1px dashed black;
+}
+
+.images {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.info {
+  display: flex;
+  flex-flow: column wrap;
 }
