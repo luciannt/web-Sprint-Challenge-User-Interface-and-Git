@@ -128,6 +128,8 @@ table {
   border-spacing: 0;
 }
 
+/* Home Page */
+
 * {
   box-sizing: border-box;
 }
@@ -269,4 +271,25 @@ footer nav a {
 
 .boxes .box:nth-child(10) {
   background: dodgerblue;
+}
+
+/* About Page*/
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.City {
+  text-align: center;
+}
+
+.container .about-page {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+.about-page img {
 }
