@@ -287,9 +287,9 @@ nav {
 
 .container .about-page {
   display: flex;
-  flex-flow: row wrap;
-  align-content: center;
+  flex-flow: column wrap;
 }
 
-.about-page img {
+.about-page p {
+  border-bottom: 1px dashed black;
 }
